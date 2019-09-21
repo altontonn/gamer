@@ -1,0 +1,55 @@
+body {
+    background: url(images/people-2604149_1280.jpg);
+    background-attachment: fixed;
+    font-size: 20px;
+}
+
+#form {
+    width: 300px;
+    height: 390px;
+    border: 1px solid rgba(211, 233, 8, 0.418);
+    background: rgba(199, 233, 8, 0.24);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(20, 15, 15);
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+#form h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#form input[type="text"],
+#form input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#form input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Gill Sans',
+        'Gill Sans MT',
+        Calibri,
+        'Trebuchet MS',
+        sans-serif;
+    background: darkred;
+    border-radius: 20px;
+}
+
+#form input[type="submit"]:hover {
+    cursor: pointer;
+    font-size: 20px;
+}
